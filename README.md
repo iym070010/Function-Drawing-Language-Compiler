@@ -24,7 +24,8 @@
 	`FOR T FROM 0 TO 2*PI STEP PI/50 DRAW(COS(t),sin(t));`
 	
 	+ 测试文本序列（2）：
-	```
+	
+```
 //------------------This is zhushi!!------------------------
 ORIGIN IS (100,300);  						// Sets the offset of the origin
 ROT IS 0;									// Set rotation Angle.
@@ -32,7 +33,7 @@ SCALE IS (1,1);								// Set the abscissa and ordinate scale.
 FOR T FROM 0 TO 200 STEP 1 DRAW (T,0);		// The trajectory of the x-coordinate.
 FOR T FROM 0 TO 150 STEP 1 DRAW (0,-T);		// The trajectory of the y-coordinate.
 FOR T FROM 0 TO 120 STEP 1 DRAW (T,-T);		// The trajectory of the function f[t]=t.
-	```
+```
 
 
 ### parser:语法分析器
@@ -150,3 +151,6 @@ FOR T FROM 0 TO 8 STEP 0.1 DRAW (T,-EXP(T));	-- 函数F(T)=EXP(T)的轨迹
 SCALE IS (2,20);	-- 设置比例
 FOR T FROM 0 TO 300 STEP 1 DRAW (T,-LN(T));	-- 函数F(T)=LN(T)的轨迹
 ```
+
+
+### My Blog：[Welcome to Hlong Blog!](https://www.cnblogs.com/ymjun/ "黄龙士")
